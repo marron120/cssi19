@@ -4,13 +4,33 @@ body {
   justify-content: center;
 }
 
+/* h1
+{
+  margin-bottom: 3em;
+} */
+
 body {
   background-color: purple;
   color: yellow;
 }
-#container{
-  justify-content: center;
-  position: absolute;
 
+.header {
+    position:	absolute;
+    top:		0px;
+    height:     50px;
+    width:      100%;
+}
 
+.container {
+    position:	absolute;
+    bottom:		0;
+    height:     50px;
+    width:      100%;
+}
+
+.cssBody {
+    position:	absolute;
+    top:		50px;
+    bottom:		50px;
+    width: 		100%;
 }
